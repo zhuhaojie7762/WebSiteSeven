@@ -1,0 +1,122 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>公司公告-投资者关系-尚品宅配</title>
+
+<meta name="keywords" content="首页-投资者关系-尚品宅配">
+
+<meta name="Description" content="首页-投资者关系-尚品宅配">
+
+<body>
+
+<link href="css/style.css?a=1513083684" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.js?v=1513083684"></script>
+
+<header class="Top_bg">
+
+	<div class="Top">
+
+        <div class="logo"><a href="../index.html"><img src="images/logo.png" width="148"></a></div>
+
+        <nav class="mainnav">
+
+            <ul class="menu" id="menu">
+
+				<li><a style="color:#b5b5b5;" href="index.html">HOME</a></li>
+
+				<li><a class="nava" href="aboutus.html">公司资料</a></li>
+
+                <li><a class="nava" href="notice.html">公司公告</a></li>
+
+                <li><a class="nava" href="new.html">公司动态</a></li>
+
+                <li><a class="nava" href="feedback.html">精彩互动</a></li>
+
+                <li><a class="nava" href="gupiao.html" >股票走势</a></li>
+
+            </ul>
+
+            <div class="clear"></div>
+
+        </nav>
+
+    </div>
+
+    <script type="text/javascript">
+
+
+
+  var urlstr = location.href;
+
+
+
+  //alert((urlstr + '/').indexOf($(this).attr('href')));
+
+  var urlstatus=false;
+
+  $("#menu a").each(function () {
+
+    if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+
+      $(this).addClass('cur'); urlstatus = true;
+
+    } else {
+      if(urlstr.indexOf('/noticedetail') > -1){
+          $("#menu a").eq(2).addClass('cur');
+          urlstatus = true;
+      }else if(urlstr.indexOf('/detail') > -1){
+          $("#menu a").eq(3).addClass('cur');
+          urlstatus = true;
+      }
+      $(this).removeClass('cur');
+
+    }
+
+  });
+
+  if (!urlstatus) {$("#menu a").eq(0).addClass('cur'); }
+
+</script>
+
+</header>
+<div class="w1210">
+      <div style="width: 1178px;"><p style="text-align: right;"><span><a href="#">HOME</a></span> &gt <span><a href="#" target="_blank">公司公告</a></span></p></div>
+      <div class="clear"></div>
+      <div class="main_content">
+         <h4>公告标题：2017年第一次临时股东大会的法律意见书</h4>
+         <h4>公告日期：2017-04-11</h4>
+      </div>
+      <iframe style="width: 1178px; height: 100%;" src="http://www.spzp.com/zp/houtai/sys/finalpage/2017-04-11/1203284124.PDF">
+      <html><body style="height: 100%; width: 100%; overflow: hidden; margin: 0"><embed width="100%" height="100%" name="plugin" id="plugin" src="http://www.spzp.com/zp/houtai/sys/finalpage/2017-04-11/1203284124.PDF" type="application/pdf" internalinstanceid="221" title="2017年第一次临时股东大会的法律意见书"></body></html>
+      </iframe>
+   </div>
+
+<div class="dibu_bg">
+	<footer class="Bottom">
+		<div class="Copyright">
+			<nav class="BottomLinks">
+				<em>|</em><a href="../legal.html">法律声明</a>			
+			</nav>
+			Copyright &copy;&nbsp;2015 广州尚品宅配家居股份有限公司 All Rights Reserved.　
+			备案号：<a target="_blank" href="http://www.miibeian.gov.cn" rel="nofollow">粤ICP备13000441号-2</a>
+		</div>
+		<div class="clear"></div>
+		
+	</footer>
+</div>
+
+</body>
+
+</html>
+

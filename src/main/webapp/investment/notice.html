@@ -1,0 +1,135 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>公司公告-投资者关系-尚品宅配</title>
+
+<meta name="keywords" content="首页-投资者关系-尚品宅配">
+
+<meta name="Description" content="首页-投资者关系-尚品宅配">
+
+<body>
+
+<link href="css/style.css?a=1513083684" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.js?v=1513083684"></script>
+
+<header class="Top_bg">
+
+	<div class="Top">
+
+        <div class="logo"><a href="../index.html"><img src="images/logo.png" width="148"></a></div>
+
+        <nav class="mainnav">
+
+            <ul class="menu" id="menu">
+
+				<li><a style="color:#b5b5b5;" href="index.html">HOME</a></li>
+
+				<li><a class="nava" href="aboutus.html">公司资料</a></li>
+
+                <li><a class="nava" href="notice.html">公司公告</a></li>
+
+                <li><a class="nava" href="new.html">公司动态</a></li>
+
+                <li><a class="nava" href="feedback.html">精彩互动</a></li>
+
+                <li><a class="nava" href="gupiao.html" >股票走势</a></li>
+
+            </ul>
+
+            <div class="clear"></div>
+
+        </nav>
+
+    </div>
+
+    <script type="text/javascript">
+
+
+
+  var urlstr = location.href;
+
+
+
+  //alert((urlstr + '/').indexOf($(this).attr('href')));
+
+  var urlstatus=false;
+
+  $("#menu a").each(function () {
+
+    if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+
+      $(this).addClass('cur'); urlstatus = true;
+
+    } else {
+      if(urlstr.indexOf('/noticedetail') > -1){
+          $("#menu a").eq(2).addClass('cur');
+          urlstatus = true;
+      }else if(urlstr.indexOf('/detail') > -1){
+          $("#menu a").eq(3).addClass('cur');
+          urlstatus = true;
+      }
+      $(this).removeClass('cur');
+
+    }
+
+  });
+
+  if (!urlstatus) {$("#menu a").eq(0).addClass('cur'); }
+
+</script>
+
+</header>
+<div class="page">
+      <img src="images/notice_banner1.jpg" alt="">
+   </div>
+   <div class="w1210">
+      <div class="crumbs"><p><span><a href="#">HOME</a></span> &gt <span><a href="#" target="_blank">公司公告</a></span></p></div>
+      <div class="clear"></div>
+      <div class="content">
+         <ul>
+                                 <li><a href="noticedetail.html" target="_blank"><em>&gt</em>2017年第一次临时股东大会的法律意见书</a><span>2017-04-11</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>2017年度日常关联交易预计公告的补充说明</a><span>2017-03-28</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>2017年度日常关联交易预计公告（更新后）</a><span>2017-03-28</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>关于召开2017年第一次临时股东大会的通知</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>第二届董事会第十次会议决议公告</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>关于使用闲置自有资金购买理财产品的公告</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>2017年度日常关联交易预计公告（已取消）</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>第二届监事会第六次会议决议公告</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>公司章程修订说明</a><span>2017-03-27</span></li>
+                        <li><a href="noticedetail.html" target="_blank"><em>&gt</em>关于使用闲置募集资金进行现金管理的公告</a><span>2017-03-27</span></li>
+                                 
+         </ul>
+      </div>
+      <div class="page_num">
+         <p>共有<em>7</em>页,&nbsp;&nbsp;<a href="#"><font style="color:red">1</font></a>&nbsp;&nbsp;<a href="#">2</a>&nbsp;&nbsp;<a href="#">3</a>&nbsp;&nbsp;<a href="#">4</a>&nbsp;&nbsp;<a href="#">5</a>&nbsp;&nbsp;<a href="#">下一页</a>&nbsp;&nbsp;<a href="#">尾页</a>&nbsp;&nbsp;      </div>
+   </div>
+
+<div class="dibu_bg">
+	<footer class="Bottom">
+		<div class="Copyright">
+			<nav class="BottomLinks">
+				<em>|</em><a href="../legal.html">法律声明</a>			
+			</nav>
+			Copyright &copy;&nbsp;2015 广州尚品宅配家居股份有限公司 All Rights Reserved.　
+			备案号：<a target="_blank" href="http://www.miibeian.gov.cn" rel="nofollow">粤ICP备13000441号-2</a>
+		</div>
+		<div class="clear"></div>
+		
+	</footer>
+</div>
+
+</body>
+
+</html>
+
